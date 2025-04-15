@@ -3,15 +3,26 @@ ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in
 
 ## Changelog
 
+### v1.0.1
+The second pre-alpha version has been released!
+```md
+V1.0.1 changelog:
++ Mission 1 "The Intro" 
++ Mission 2 "Fuck, you." 
++ Basic introduction to fighting mechanics
++ Crawler (Enemy)
++ Rectangle float (Enemy)
+```
+
 ### V1.0.0
 The first version is officially released! 🎉
 The first mission has been mostly completed. It is a very simple introduction, and the story will most likely get changed later. This is just a preview of what it will be later.
-So, keep in mind, it is an alpha version, it will have bugs and it is NOT polished at all.
+So, keep in mind, it is an pre-alpha version, it will have bugs and it is NOT polished at all.
 
 
 
-### Alpha testers which give helpful feedback will be added to the credits of ZeroDay!
-It is now open for early alpha testing on It is now open for early alpha testing on [GX.games](https://gx.games/games/g6s0ok/zeroday/tracks/17711848-dec2-4c0d-a380-1f9f28275100/).  
+### pre-Alpha testers which give helpful feedback will be added to the credits of ZeroDay!
+It is now open for early pre-alpha testing on [GX.games](https://gx.games/games/g6s0ok/zeroday/tracks/17711848-dec2-4c0d-a380-1f9f28275100/).  
 It will later be added to the following platforms:
 <ul>
   <li>Mac</li>
@@ -25,7 +36,7 @@ Roadmap:
 🔰 Intro level
 ⏭️ First actual story mission with combat
 ⏭️ Secret side mission
-And more ideas to come as i get feedback from alpha testers! 
+And more ideas to come as i get feedback from pre-alpha testers! 
 
 
 
@@ -33,7 +44,5 @@ And more ideas to come as i get feedback from alpha testers!
 # Credits
 **Main Developer, Graphics Designer and Story Writer:** Chris ([BoreddevHQ](https://github.com/boreddevhq))
 **Graphics Designer** Kenny ([nonbinarybyte](https://nonbinarybyte))
-
-### Alpha Testers:
 
 
