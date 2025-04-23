@@ -53,7 +53,9 @@ And more ideas to come as i get feedback from pre-alpha testers!
 
 
 # Credits
-**Main Developer, Graphics Designer and Story Writer:** Chris ([BoreddevHQ](https://github.com/boreddevhq))
-**Graphics Designer** Kenny ([nonbinarybyte](https://nonbinarybyte))
+**Main Developer, Graphics Designer and Story Writer:** Chris </br>
+**Donaters:**
+**Beta Testers:**
+
 
 
