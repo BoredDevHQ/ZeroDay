@@ -6,6 +6,7 @@ ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%F0%9F%92%9C-purple?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me A Coffee Badge"/>
   </a>
 </div>
+
 ## Changelog
 
 ### v1.0.11
