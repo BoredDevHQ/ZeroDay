@@ -1,6 +1,11 @@
 # ZeroDay
 ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in a city with great opportunities. Though, a company, Pear Computers, has somehow taken over the government of the entire country and now tracks everything everyone does in the country. They have cameras on every corner, and your face automatically gets registered when you enter the country. You, as the main character, are supposed to bring the company to the ground by breaking into their servers to hack them. You also need to accumulate people as a resistance against the now overtaken government to bring it back to order and get people’s privacy back and their saved data that Pear Computers accumulated destroyed.
 
+<div align="center" style="margin: 2rem 0;">
+  <a href="https://buymeacoffee.com/boreddevhq" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%F0%9F%92%9C-purple?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me A Coffee Badge"/>
+  </a>
+</div>
 ## Changelog
 
 ### v1.0.11
