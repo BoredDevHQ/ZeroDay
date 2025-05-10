@@ -14,6 +14,7 @@
     {"name":"inst_3529B7B8","path":"rooms/DatacenterBossFight/DatacenterBossFight.yy",},
     {"name":"inst_62ECC65F","path":"rooms/DatacenterBossFight/DatacenterBossFight.yy",},
     {"name":"inst_689B9EBD","path":"rooms/DatacenterBossFight/DatacenterBossFight.yy",},
+    {"name":"inst_701979BE","path":"rooms/DatacenterBossFight/DatacenterBossFight.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,6 +32,7 @@
         {"$GMRInstance":"v2","%Name":"inst_3529B7B8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3529B7B8","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":364.0,"y":74.0,},
         {"$GMRInstance":"v2","%Name":"inst_62ECC65F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_62ECC65F","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":366.0,"y":119.0,},
         {"$GMRInstance":"v2","%Name":"inst_689B9EBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_689B9EBD","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":364.0,"y":100.0,},
+        {"$GMRInstance":"v2","%Name":"inst_701979BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_701979BE","objectId":{"name":"obj_room_controller","path":"objects/obj_room_controller/obj_room_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":382.0,"y":95.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":25,"TileCompressedData":[
           -36,3419,-3,0,-20,3419,-7,0,-9,3419,1,2966,-19,0,-4,-2147483648,-2,2966,-19,0,-4,-2147483648,-2,2966,
