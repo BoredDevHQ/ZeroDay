@@ -55,10 +55,11 @@ It will later be added to the following platforms:
 </ul>
 
 Roadmap:
-✅ Basic game mechanics/assets
-🔰 Intro level
-⏭️ First actual story mission with combat
-⏭️ Secret side mission
+✅ Basic game mechanics/assets </br>
+✅ Intro level </br>
+✅ Second mission (intro to combat) </br>
+🔰 Third mission with hacking mechanics and a boss fight </br>
+⏭️ Secret side mission(s) </br>
 And more ideas to come as i get feedback from alpha testers! 
 
 
