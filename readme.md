@@ -54,7 +54,7 @@ It will later be added to the following platforms:
   <li>and of course also stay on gx.games.</li>
 </ul>
 
-Roadmap:
+Roadmap: </br>
 ✅ Basic game mechanics/assets </br>
 ✅ Intro level </br>
 ✅ Second mission (intro to combat) </br>
