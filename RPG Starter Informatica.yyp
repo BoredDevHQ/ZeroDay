@@ -150,8 +150,8 @@
     {"roomId":{"name":"Mission3open1","path":"rooms/Mission3open1/Mission3open1.yy",},},
     {"roomId":{"name":"Datacenter1","path":"rooms/Datacenter1/Datacenter1.yy",},},
     {"roomId":{"name":"DatacenterBossFight","path":"rooms/DatacenterBossFight/DatacenterBossFight.yy",},},
-    {"roomId":{"name":"room_game_over","path":"rooms/room_game_over/room_game_over.yy",},},
     {"roomId":{"name":"room_finished","path":"rooms/room_finished/room_finished.yy",},},
+    {"roomId":{"name":"room_game_over","path":"rooms/room_game_over/room_game_over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
