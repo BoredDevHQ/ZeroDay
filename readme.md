@@ -9,6 +9,18 @@ ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in
 
 ## Changelog
 
+### v.1.0.2
+```md
++ Game Over Screen
++ Boss fight (big chonkah)
++ Mission 3 (???)
++ Splash screen
++ Sound effects (sword/hit/talking)
++ simulated blood (health <40%)
++ End screen
+```
+
+
 ### v1.0.11
 ```md
 + XP saving fix on room "arenafight1" --> "arenad1"
