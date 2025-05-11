@@ -40,12 +40,12 @@ V1.0.1 changelog:
 ### V1.0.0
 The first version is officially released! 🎉
 The first mission has been mostly completed. It is a very simple introduction, and the story will most likely get changed later. This is just a preview of what it will be later.
-So, keep in mind, it is an pre-alpha version, it will have bugs and it is NOT polished at all.
+So, keep in mind, it is an alpha version, it will have bugs and it is NOT polished at all.
 
 
 
 ### pre-Alpha testers which give helpful feedback will be added to the credits of ZeroDay!
-It is now open for early pre-alpha testing on [GX.games](https://gx.games/games/g6s0ok/zeroday/tracks/17711848-dec2-4c0d-a380-1f9f28275100/).  
+It is now open for early alpha testing on [GX.games](https://gx.games/games/g6s0ok/zeroday/tracks/17711848-dec2-4c0d-a380-1f9f28275100/).  
 It will later be added to the following platforms:
 <ul>
   <li>Mac</li>
@@ -54,18 +54,19 @@ It will later be added to the following platforms:
   <li>and of course also stay on gx.games.</li>
 </ul>
 
-Roadmap:
-✅ Basic game mechanics/assets
-🔰 Intro level
-⏭️ First actual story mission with combat
-⏭️ Secret side mission
-And more ideas to come as i get feedback from pre-alpha testers! 
+Roadmap: </br>
+✅ Basic game mechanics/assets </br>
+✅ Intro level </br>
+✅ Second mission (intro to combat) </br>
+🔰 Third mission with hacking mechanics and a boss fight </br>
+⏭️ Secret side mission(s) </br>
+And more ideas to come as i get feedback from alpha testers! 
 
 
 
 
 # Credits
 **Main Developer, Graphics Designer and Story Writer:** Chris </br>
-**Donaters:**
-**Beta Testers:**
+**Donators:**
+**Alpha Testers:**
 
