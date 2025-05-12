@@ -13,6 +13,12 @@ global.d_arenad2 = [];
 global.d_enterdatacenter1 = [];
 global.d_datacenter1enter = [];
 global.d_startmission3 = [];
+global.d_cat = [];
+global.d_hack = [];
+global.d_bossfinish = [];
+global.d_serverroom = [];
+global.d_datacenterhack = [];
+global.d_escapedatacenter = [];
 // Dialog creation function
 function create_dialog(_messages){
     if (instance_exists(obj_dialog)) return;
@@ -37,6 +43,8 @@ global.char_colors = {
     "Datacenter": c_yellow,
     "Guard Bots": c_red,
     "Ghost (Radio)": c_aqua,
+    "Cat": c_orange,
+    "Laptop": c_aqua,
 }
 
 global.pearstore = [
@@ -325,5 +333,114 @@ global.d_startmission3 = [
 {
     name: "Ghost",
     msg: "Alright, get going then. I'll give you extra information via comms when needed.",
+},
+]
+global.d_cat = [
+{
+    name: "Cat",
+    msg: "Meow",
+},
+]
+global.d_hack = [
+{
+    name: "Laptop",
+    msg: "Hack started, survive until this is finished.",
+
+},
+]
+global.d_bossfinish = [
+{
+    name: "Ghost",
+    msg: "Nice work!",
+
+},
+{
+    name: "Chris",
+    msg: "I almost died and the first thing i hear is 'Nice work!'? Really?",
+
+},
+{
+    name: "Ghost",
+    msg: "I'll buy you a coffee or something, anyways, you see that door? I got it open while you were fighting, just go through there and you should arrive in some kind of server room.",
+
+},
+]
+global.d_serverroom = [
+{
+    name: "Ghost",
+    msg: "Howdy, are you in the server room?",
+
+},
+{
+    name: "Chris",
+    msg: "Yep.",
+
+},
+{
+    name: "Ghost",
+    msg: "Great. You see that laptop there in the center? Open it up for me. I'll do the rest, i suggest getting ready to fight though.",
+},
+]
+global.d_datacenterhack = [
+{
+    name: "Ghost",
+    msg: "And i'm in. I deleted everything.",
+
+},
+{
+    name: "Chris",
+    msg: "Took you long enough, anyways what is it with you making it that i basically almost die every mission you give me?",
+
+},
+{
+    name: "Ghost",
+    msg: "Good question. I suggest you get out of there before you really die. I see stuff upcoming, there is a red block you need to walk in since this stupid dev named boreddevhq or something was too lazy to make a real door"
+}
+]
+global.d_escapedatacenter = [
+{
+    name: "Ghost",
+    msg: "Great, you're out.",
+
+},
+{
+    name: "Chris",
+    msg: "Yeah but those bots you were talking about too.",
+
+},
+{
+    name: "Ghost",
+    msg: "FUCK! FUCK FUCK! Fight them off and get the fuck over here. If they're still behind you when you're here i'm not letting you in.",
+},
+{
+    name: "Chris",
+    msg: "Yeah yeah, fuck you too.",
+
+},
+]
+global.d_mission3end = [
+{
+    name: "Ghost",
+    msg: "Welcome back mate. What you just did changed so, so much. This saved us around 6 break ins into Pear's datacenters. Some kid left API keys in here that go into some other datacenters and i hacked into those and completely wiped them.",
+
+},
+{
+    name: "Chris",
+    msg: "Fuck, yes. I am NOT doing something like that again.",
+
+},
+{
+    name: "Ghost",
+    msg: "Haha. I think this calls for celebration?",
+},
+{
+    name: "Chris",
+    msg: "Hell, yeah.",
+
+},
+{
+    name: "Congrats",
+    msg: "Mission 3 'I am NOT doing that again.' Finished.",
+
 },
 ]

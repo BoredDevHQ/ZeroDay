@@ -1,0 +1,1 @@
+audio_stop_sound(epicbattle);  // Stop the sound when leaving the room

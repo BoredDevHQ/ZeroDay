@@ -3,13 +3,13 @@ if (current_message < 0) exit;
 var _str = messages[current_message].msg;
 var _msg = messages[current_message];
 
-// Play sound if this is a new message and it has a sound property
+
 if (current_char == 0)
 {
-    // Reset to default speed first
+
     char_speed = default_char_speed;
     
-    // Stop any existing talking sound
+
     if (audio_is_playing(talking))
     {
         audio_stop_sound(talking);
@@ -22,13 +22,12 @@ if (current_char == 0)
         {
             audio_play_sound(_snd, 10, false);
             
-            // Calculate character speed based on sound duration
+
             var _duration = audio_sound_length(_snd);
             var _text_length = string_length(_str);
             if (_duration > 0 && _text_length > 0)
             {
-                // Calculate how many characters per step we need to show
-                // to complete exactly when the sound ends
+              
                 char_speed = _text_length / (_duration * room_speed);
             }
         }
