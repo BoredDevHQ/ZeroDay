@@ -37,12 +37,12 @@ global.char_colors = {
     "Unknown": c_white,
     "Pear Store": c_yellow,
     "Pear Store Employee": c_aqua,
-    "Starbucks": c_yellow,
-    "Starbucks Employee": c_aqua,
+    "Moonbucks": c_yellow,
+    "Moonbucks Employee": c_aqua,
     "The ByteCave": c_yellow,
     "Datacenter": c_yellow,
     "Guard Bots": c_red,
-    "Ghost (Radio)": c_aqua,
+    "Ghost (Radio)": c_orange,
     "Cat": c_orange,
     "Laptop": c_aqua,
 }
@@ -93,8 +93,8 @@ global.pearstore = [
 ]
 global.enterstarbucks = [
 {
-    name: "Starbucks",
-    msg: "Entering Starbucks"
+    name: "Moonbucks",
+    msg: "Entering Moonbucks"
 },
 
 ]
@@ -137,36 +137,48 @@ global.pearstoreemployee = [
 
 global.starbucksemployee = [
 {
-    name: "Starbucks Employee",
-    msg: "Welcome to Starbucks! Our system doesn't seem to recognize you so i can't give you your daily coffee... Did you give your personal data to Pear yet?"
+    name: "Moonbucks Employee",
+    msg: "Welcome to Moonbucks! Are you new here? Our system doesn't recognize you."
 },
 {
     name: "Chris",
-    msg: "Damn, y'all have a system like that? And no i didn't, nor will i ever give my data to that shitty company."
+    msg: "Yeah, i am. But what do you mean 'Our system doesn't recognize you.' What kind of system do y'all have?"
 },
 {
-    name: "Starbucks Employee",
-    msg: "Don't say that stuff about Pear, they hear everything you know.. But.. Are you part of the uh.. Resistance?.."
-},
-{
-    name: "Chris",
-    msg: "Can't say, i won't admit to anything... Anyways can i have 2 cappuccino's with no sugar?"
-},
-{
-    name: "Starbucks Employee",
-    msg: "Yeah sure, coming right up!"
+    name: "Moonbucks Employee",
+    msg: "First off, welcome to the city! So we have a system that stores your face, name, civilian ID whenever you order something so we know your regular order each time you come in!"
 },
 {
     name: "Chris",
-    msg: "Great."
+    msg: "Amazing idea, bit against privacy though."
 },
 {
-    name: "Starbucks Employee",
-    msg: "And here you go! Don't forget to come back later if you need it for your.. legal computer needs.."
+    name: "Moonbucks Employee",
+    msg: "Yeah.. I see what kind of person you are so i'll make sure not to save you in the system. So what would you like?"
 },
 {
     name: "Chris",
-    msg: "Will do!"
+    msg: "Could i get two chocolate frappe's?"
+},
+{
+    name: "Moonbucks Employee",
+    msg: "Of course! Taking some coffee with you for a friend of yours?"
+},
+{
+    name: "Chris",
+    msg: "Yeah! I'm taking it with me for my new boss."
+},
+{
+    name: "Moonbucks Employee",
+    msg: "Sweet! I hope you enjoy your time at your new job."
+},
+{
+    name: "Moonbucks Employee",
+    msg: "And.. here you go! Enjoy your frappe!"
+},
+{
+    name: "Chris",
+    msg: "Thanks so much! and you enjoy the rest of your shift!"
 },
 
 ]
@@ -183,7 +195,7 @@ global.d_endmission1 = [
 },
 {
     name: "Chris",
-    msg: "Yeah.. True. Also here's your coffee, cappuccino. No sugar, no milk. "
+    msg: "Yeah.. True. Also here's your chocolate frappe. "
 },
 {
     name: "Ghost",
@@ -239,11 +251,11 @@ global.d_arena = [
 global.d_arenad2 = [
 {
     name: "Ghost",
-    msg: "Holy shit. How did you- Nevermind. That was.. EPIC!!! Absolutely insane stuff dude."
+    msg: "Holy shit. How did you- Nevermind. That was.. EPIC!!! Absolutely insane stuff."
 },
 {
     name: "Chris",
-    msg: "With that 'holy shit' you meant you thought that i was going to die? That's messed up dude. I mean that last recruit man.. "
+    msg: "With that 'holy shit' you meant you thought that i was going to die? That's messed up. I mean that last recruit man.. "
 },
 {
     name: "Ghost",
@@ -350,7 +362,7 @@ global.d_hack = [
 ]
 global.d_bossfinish = [
 {
-    name: "Ghost",
+    name: "Ghost (Radio)",
     msg: "Nice work!",
 
 },
@@ -367,7 +379,7 @@ global.d_bossfinish = [
 ]
 global.d_serverroom = [
 {
-    name: "Ghost",
+    name: "Ghost (Radio)",
     msg: "Howdy, are you in the server room?",
 
 },
@@ -377,29 +389,29 @@ global.d_serverroom = [
 
 },
 {
-    name: "Ghost",
-    msg: "Great. You see that laptop there in the center? Open it up for me. I'll do the rest, i suggest getting ready to fight though.",
+    name: "Ghost (Radio)",
+    msg: "Great. You see that laptop there in the center? Open it up for me. I'll do the rest, I suggest getting ready to fight though.",
 },
 ]
 global.d_datacenterhack = [
 {
-    name: "Ghost",
-    msg: "And i'm in. I deleted everything.",
+    name: "Ghost (Radio)",
+    msg: "And I'm in. I deleted everything.",
 
 },
 {
     name: "Chris",
-    msg: "Took you long enough, anyways what is it with you making it that i basically almost die every mission you give me?",
+    msg: "Took you long enough, anyways what is it with you making it that I basically almost die every mission you give me?",
 
 },
 {
-    name: "Ghost",
-    msg: "Good question. I suggest you get out of there before you really die. I see stuff upcoming, there is a red block you need to walk in since this stupid dev named boreddevhq or something was too lazy to make a real door"
+    name: "Ghost (Radio)",
+    msg: "Good question. I suggest you get out of there before you really die. I see bots upcoming. I suggest you start running to that door, unless you have a death wish."
 }
 ]
 global.d_escapedatacenter = [
 {
-    name: "Ghost",
+    name: "Ghost (Radio)",
     msg: "Great, you're out.",
 
 },
@@ -409,7 +421,7 @@ global.d_escapedatacenter = [
 
 },
 {
-    name: "Ghost",
+    name: "Ghost (Radio)",
     msg: "FUCK! FUCK FUCK! Fight them off and get the fuck over here. If they're still behind you when you're here i'm not letting you in.",
 },
 {

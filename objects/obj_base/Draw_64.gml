@@ -22,7 +22,7 @@ if (display_bridge_info) {
 
     // Title
 
-    draw_text(x_pos + 10, y_pos + 10, "ZeroDay HQ");
+    draw_text(x_pos + 10, y_pos + 10, "ByteCave");
 
     // Description
     draw_set_font(smalltxt);

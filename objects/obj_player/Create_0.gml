@@ -10,13 +10,15 @@ if(variable_global_exists("player_level")) {
     xp = global.player_xp;
     xp_require = global.player_xp_require;
     level = global.player_level;
+    total_xp = global.player_total_xp;
 } else {
     // Initial stats for new game
     hp = 20;
     hp_total = hp;
     damage = 1;
     xp = 0;
-    xp_require = 100;
+    total_xp = 0;
+    xp_require = 100; // Starting with 1000 followers needed
     level = 1;
     
     // Save initial stats
@@ -24,9 +26,14 @@ if(variable_global_exists("player_level")) {
     global.player_hp_total = hp_total;
     global.player_damage = damage;
     global.player_xp = xp;
+    global.player_total_xp = total_xp;
     global.player_xp_require = xp_require;
     global.player_level = level;
 }
+
+// Variables to track stat increases
+last_health = hp_total;
+last_damage = damage;
 
 charge = 0;
 facing = 0;
@@ -42,8 +49,14 @@ attack_cooldown = 15; // 15ms cooldown
 function add_xp(_xp_to_add)
 {
     xp += _xp_to_add;
+    total_xp += _xp_to_add; // Add to total XP counter
+    
     if(xp >= xp_require)
     {
+        // Store previous stats to calculate increase
+        last_health = hp_total;
+        last_damage = damage;
+        
         level++;
         xp -= xp_require;
         xp_require *= 1.4;
@@ -57,6 +70,7 @@ function add_xp(_xp_to_add)
         global.player_hp_total = hp_total;
         global.player_damage = damage;
         global.player_xp = xp;
+        global.player_total_xp = total_xp;
         global.player_xp_require = xp_require;
         global.player_level = level;
         
@@ -67,4 +81,5 @@ function add_xp(_xp_to_add)
     
     // Save XP even if we didn't level up
     global.player_xp = xp;
+    global.player_total_xp = total_xp;
 }

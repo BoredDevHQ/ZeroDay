@@ -26,6 +26,7 @@ if (is_hacking)
                 enemy1.image_xscale = 1;
                 enemy1.image_yscale = 1;
             }
+    
         
             // Spawn obj_enemy2
             var enemy2 = instance_create_layer(35, 113, "Instances", obj_enemy2);
@@ -33,7 +34,29 @@ if (is_hacking)
                 enemy2.image_xscale = 1;
                 enemy2.image_yscale = 1;
             }
+
+       
+            var enemy4 = instance_create_layer(177, 142, "Instances", obj_enemy1);
+            if (enemy4 != noone) {
+                enemy4.image_xscale = 1;
+                enemy4.image_yscale = 1;
+            }    
+
+
             
+            var enemy6 = instance_create_layer(270, 49, "Instances", obj_enemy2);
+            if (enemy6 != noone) {
+                enemy6.image_xscale = 1;
+                enemy6.image_yscale = 1;
+            }  
+            
+            var enemy7 = instance_create_layer(270, 113, "Instances", obj_enemy2);
+            if (enemy7 != noone) {
+                enemy7.image_xscale = 1;
+                enemy7.image_yscale = 1;
+            }              
+            
+                                                                
             // Reset spawn timer
             spawn_timer = spawn_interval;
         }
