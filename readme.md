@@ -54,13 +54,6 @@ It will later be added to the following platforms:
   <li>and of course also stay on gx.games.</li>
 </ul>
 
-Roadmap: </br>
-✅ Basic game mechanics/assets </br>
-✅ Intro level </br>
-✅ Second mission (intro to combat) </br>
-🔰 Third mission with hacking mechanics and a boss fight </br>
-⏭️ Secret side mission(s) </br>
-And more ideas to come as i get feedback from alpha testers! 
 
 
 
