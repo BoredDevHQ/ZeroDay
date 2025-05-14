@@ -45,6 +45,7 @@ global.char_colors = {
     "Ghost (Radio)": c_orange,
     "Cat": c_orange,
     "Laptop": c_aqua,
+    "Note To Self": c_grey,
 }
 
 global.pearstore = [
@@ -64,7 +65,7 @@ global.cam_diag1 = [
 global.welcome_dialog = [
 {
     name: "Ghost",
-    msg: "I'm Ghost, welcome to the city of dreams Chris! Atleast, that's what it was."
+    msg: "I'm Ghost, welcome to the city of dreams Chris! At least, that's what it was."
 },
 {
     name: "Chris",
@@ -119,7 +120,7 @@ global.pearstoreemployee = [
 },
 {
     name: "Pear Store Employee",
-    msg: "Just kidding, €3,499 Please. "
+    msg: "Just kidding, EUR3,499 Please. "
 },
 {
     name: "Chris",
@@ -132,6 +133,10 @@ global.pearstoreemployee = [
 {
     name: "Chris",
     msg: "Yeah yeah, sure.. Weirdo."
+},
+{
+    name: "Note To Self",
+    msg: "Pear is way too data hungry. So data hungry that they're making employees ask to give them all your data. This shit is fucked and it needs to be stopped."
 },
 ]
 
@@ -146,7 +151,7 @@ global.starbucksemployee = [
 },
 {
     name: "Moonbucks Employee",
-    msg: "First off, welcome to the city! So we have a system that stores your face, name, civilian ID whenever you order something so we know your regular order each time you come in!"
+    msg: "First off, welcome to the city! Anyways, we have a system that stores your face, name, civilian ID whenever you order something so we know your regular order each time you come in!"
 },
 {
     name: "Chris",
@@ -154,7 +159,15 @@ global.starbucksemployee = [
 },
 {
     name: "Moonbucks Employee",
-    msg: "Yeah.. I see what kind of person you are so i'll make sure not to save you in the system. So what would you like?"
+    msg: "Privacy, what's that?"
+},
+{
+    name: "Chris",
+    msg: "You don't know?- Wha- Never mind."
+},
+{
+    name: "Note To Self",
+    msg: "Are they brainwashing people? He was so happy about being tracked, and... he doesn't even know what privacy is?!"
 },
 {
     name: "Chris",
@@ -266,6 +279,10 @@ global.d_arenad2 = [
     msg: "Fuck, you."
 },
 {
+    name: "Note To Self",
+    msg: "Ghost is one hell of an asshole! He thought I would die here and still made me go. I am for sure not forgetting this bullshit."
+},
+{
     name: "Congrats",
     msg: "Mission 2 'Fuck, you.' finished."
 },
@@ -299,7 +316,11 @@ global.d_datacenter1enter = [
 
 {
     name: "Ghost (Radio)",
-    msg: "Sorry mate.. Try to remember how you fought those bots in the arena, you'll need it."
+    msg: "Sorry.. Try to remember how you fought those bots in the arena, you'll need it."
+},
+{
+    name: "Chris",
+    msg: "You better be buying me a beer after this fucker."
 },
 {
     name: "Guard Bots",
@@ -396,7 +417,7 @@ global.d_serverroom = [
 global.d_datacenterhack = [
 {
     name: "Ghost (Radio)",
-    msg: "And I'm in. I deleted everything.",
+    msg: "And I'm in. I deleted everything. Stored some extra for a video I'll make to expose Pear too.",
 
 },
 {
@@ -422,7 +443,7 @@ global.d_escapedatacenter = [
 },
 {
     name: "Ghost (Radio)",
-    msg: "FUCK! FUCK FUCK! Fight them off and get the fuck over here. If they're still behind you when you're here i'm not letting you in.",
+    msg: "FUCK! Fight them off and get the fuck over here. If they're still behind you when you're here i'm not letting you in.",
 },
 {
     name: "Chris",
@@ -433,21 +454,21 @@ global.d_escapedatacenter = [
 global.d_mission3end = [
 {
     name: "Ghost",
-    msg: "Welcome back mate. What you just did changed so, so much. This saved us around 6 break ins into Pear's datacenters. Some kid left API keys in here that go into some other datacenters and i hacked into those and completely wiped them.",
+    msg: "Welcome back mate. What you just did changed so, so much. This saved us around 6 break ins into Pear's datacenters. Some kid left API keys in here that go into some other datacenters and i hacked into those and completely wiped them. I found some real disturbing shit on them too-",
 
 },
 {
     name: "Chris",
-    msg: "Fuck, yes. I am NOT doing something like that again.",
+    msg: "Fuck yes. I am NOT doing something like that again.",
 
 },
 {
     name: "Ghost",
-    msg: "Haha. I think this calls for celebration?",
+    msg: "Haha. Also I made a nice video exposing Pear with all those videos I found on their servers. Wanna watch?",
 },
 {
     name: "Chris",
-    msg: "Hell, yeah.",
+    msg: "Hell yeah.",
 
 },
 {
