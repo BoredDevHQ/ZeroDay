@@ -29,6 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
+    {"$GMObjectProperty":"v1","%Name":"dialog","filters":[],"listItems":[],"multiselect":false,"name":"dialog","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"dialog1","filters":[],"listItems":[],"multiselect":false,"name":"dialog1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"final_npc","filters":[],"listItems":[],"multiselect":false,"name":"final_npc","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],

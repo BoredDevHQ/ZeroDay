@@ -1,4 +1,5 @@
 // Initialize all dialog variables as global
+global.d_dev = [];
 global.pearstore = [];
 global.cam_diag1 = [];
 global.welcome_dialog = [];
@@ -19,6 +20,13 @@ global.d_bossfinish = [];
 global.d_serverroom = [];
 global.d_datacenterhack = [];
 global.d_escapedatacenter = [];
+global.d_mission4start = [];
+global.d_pearwelcome = [];
+global.d_yapyap = [];
+global.d_door_locked = [];
+global.d_notthedev = [];
+global.d_whereyallgoindawg = [];
+global.d_dev2 = [];
 // Dialog creation function
 function create_dialog(_messages){
     if (instance_exists(obj_dialog)) return;
@@ -36,6 +44,7 @@ global.char_colors = {
     "Narrator": c_white,
     "Unknown": c_white,
     "Pear Store": c_yellow,
+    "Pear Employee": c_aqua,
     "Pear Store Employee": c_aqua,
     "Moonbucks": c_yellow,
     "Moonbucks Employee": c_aqua,
@@ -46,6 +55,8 @@ global.char_colors = {
     "Cat": c_orange,
     "Laptop": c_aqua,
     "Note To Self": c_grey,
+    "Dev": c_red,
+    "Info": c_aqua,
 }
 
 global.pearstore = [
@@ -477,3 +488,201 @@ global.d_mission3end = [
 
 },
 ]
+global.d_mission4start = [
+{
+    name: "Chris",
+    msg: "Sup. So, I hacked into the datacenter, we made that video.. What's next?"
+},
+{
+    name: "Ghost",
+    msg: "Well.. You know the Pear HQ?"
+},
+{
+    name: "Chris",
+    msg: "Yeah- Oh no.. "
+},
+{
+    name: "Ghost",
+    msg: "Yeah. There's a dev in there, we need him, he has all the keys so we can break into their main servers. He’s the only one who can access it besides the CEO."
+    
+},
+{
+    name: "Chris",
+    msg: "You really want me dead huh?"
+    
+},
+{
+    name: "Ghost",
+    msg: "Maybe."
+    
+},
+{
+    name: "Chris",
+    msg: "The fuck?"
+    
+},
+{
+    name: "Ghost",
+    msg: "Just kidding, calm down."
+    
+},
+{
+    name: "Note To Self",
+    msg: "Ghost's jokes suck."
+    
+},
+{
+    name: "Chris",
+    msg: "Fuck you."
+    
+},
+{
+    name: "Ghost",
+    msg: "Well I think you best start moving before he's gone. Good fucking luck, you’ll need it."
+    
+},
+]
+global.d_dev = [
+{
+    name: "Chris",
+    msg: "He- Hello?... HEY",
+    shown: false
+},
+{
+    name: "Dev",
+    msg: "The fuck? Who are you?",
+    shown: false
+},
+{
+    name: "Chris",
+    msg: "The person that will leak that affair of yours if you dont quickly come with me.",
+    shown: false
+},
+{
+    name: "Dev",
+    msg: "Affair? You- You're bluffing.",
+    shown: false
+},
+{
+    name: "Chris",
+    msg: "Hell no, i know all about you and Jamal cheating on your girlfriend Hetty.",
+    shown: false
+},
+{
+    name: "Dev",
+    msg: "Oh fu- Fine i'll come with you.. don't tell anyone about this, PLEASE.",
+    shown: false
+},
+{
+    name: "Chris",
+    msg: "Alright, shut your mouth, don't tell anyone, keep all your devices here and if people ask, tell we are going on a coffee break.",
+    shown: false
+},
+{
+    name: "Dev",
+    msg: "Y-yes sir.",
+    shown: false
+},
+]
+global.d_pearwelcome = [
+{
+    name: "Pear Employee",
+    msg: "Welcome to Pear! How may i help you today?"
+},
+{
+    name: "Chris",
+    msg: "I uh.. Had an appointment. Yeah an appointment."
+},
+{
+    name: "Pear Employee",
+    msg: "Alright, with who?"
+},
+{
+    name: "Chris",
+    msg: "I believe the name was Hanssen?"
+},
+{
+    name: "Pear Employee",
+    msg: "Hanssen.. The head dev here?"
+},
+{
+    name: "Chris",
+    msg: "Yeah."
+},
+{
+    name: "Pear Employee",
+    msg: "I don't see any appointments with him planned today..."
+},
+{
+    name: "Chris",
+    msg: "Oh don't worry i messaged him like 30 minutes ago for this, the system probably isn't updated yet.."
+},
+{
+    name: "Pear Employee",
+    msg: "Alright then.. head through the door on your left and then take the second right."
+},
+]
+global.d_yapyap = [
+{
+    name: "Pear Employee",
+    msg: "As i told you the door to your left."
+},
+]
+global.d_door_locked = [
+{
+    name: "Info",
+    msg: "This door seems to be locked."
+},
+]
+global.d_notthedev = [
+{
+    name: "Chris",
+    msg: "Hey are you uh Han- Hanssen?"
+},
+{
+    name: "Dev",
+    msg: "No he's at the back. in the corner."
+},
+]
+global.d_whereyallgoindawg = [
+{
+    name: "Dev",
+    msg: "Where are y'all going?"
+},
+{
+    name: "Chris",
+    msg: "Just getting some coffee."
+},
+]
+global.d_dev2 = [
+{
+    name: "Chris",
+    msg: "Go on get moving fatty."
+},
+
+]
+global.d_dev3 = [
+{
+    name: "Pear Employee",
+    msg: "Where are you guys going?"
+},
+{
+    name: "Dev",
+    msg: "Just getting coffee, we'll be back soon."
+},
+]
+global.d_dev4 = [
+{
+    name: "Chris",
+    msg: "The fuck? What are you doing here Ghost?"
+},
+{
+    name: "Dev",
+    msg: "Who's this dude?"
+},
+{
+    name: "Ghost",
+    msg: "Get in the car. Now, both of you."
+},
+]
+

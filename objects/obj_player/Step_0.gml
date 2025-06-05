@@ -1,3 +1,8 @@
+if (window_get_width() != winw || window_get_height() !=winh)
+{
+    display_set_gui_maximize();
+}
+
 if (instance_exists(obj_dialog)) exit;
     
 var _hor = (keyboard_check(ord("D")) or keyboard_check(vk_right)) 

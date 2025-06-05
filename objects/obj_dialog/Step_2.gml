@@ -3,6 +3,25 @@ if (current_message < 0) exit;
 var _str = messages[current_message].msg;
 var _msg = messages[current_message];
 
+// Check for skip button click
+var _skip_x = gui_w - skip_btn_w - skip_btn_margin;
+var _skip_y = gui_h - skip_btn_h - skip_btn_margin;
+if (skip_btn_hover && mouse_check_button_pressed(mb_left)) {
+    // Stop any playing sounds
+    if (audio_is_playing(talking)) {
+        audio_stop_sound(talking);
+    }
+    if (variable_struct_exists(_msg, "sound") && audio_exists(_msg.sound)) {
+        audio_stop_sound(_msg.sound);
+    }
+    
+    // Skip to the end of dialog
+    instance_destroy();
+    if (next_room) {
+        room_goto_next();
+    }
+    exit;
+}
 
 if (current_char == 0)
 {
@@ -66,7 +85,9 @@ else
             }
             instance_destroy();
             
-            if (next_room) room_goto_next();
+            if (next_room) {
+                room_goto_next();}
+            
         }
         else
         {

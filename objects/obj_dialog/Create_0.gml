@@ -14,3 +14,9 @@ next_room = false;
 
 // Sound-related variables
 talking_sound = noone;
+
+// Skip button variables
+skip_btn_w = 80;
+skip_btn_h = 32;
+skip_btn_margin = 16;
+skip_btn_hover = false;
