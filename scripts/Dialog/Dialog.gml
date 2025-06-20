@@ -27,6 +27,7 @@ global.d_door_locked = [];
 global.d_notthedev = [];
 global.d_whereyallgoindawg = [];
 global.d_dev2 = [];
+global.d_rat = [];
 // Dialog creation function
 function create_dialog(_messages){
     if (instance_exists(obj_dialog)) return;
@@ -57,6 +58,7 @@ global.char_colors = {
     "Note To Self": c_grey,
     "Dev": c_red,
     "Info": c_aqua,
+    "Crazy Man": c_red,
 }
 
 global.pearstore = [
@@ -684,5 +686,973 @@ global.d_dev4 = [
     name: "Ghost",
     msg: "Get in the car. Now, both of you."
 },
+]
+global.d_rat = [
+{
+    name: "Chris",
+    msg: "why are you standing next to a rat? Kinda crazy honestly."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+{
+    name: "Crazy Man",
+    msg: "Crazy? I was Crazy once."
+},
+{
+    name: "Crazy Man",
+    msg: "They locked me in a room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room."
+},
+{
+    name: "Crazy Man",
+    msg: "A rubber room with rats."
+},
+{
+    name: "Crazy Man",
+    msg: "Rats make me crazy."
+},
+
+
 ]
 
