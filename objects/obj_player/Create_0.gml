@@ -21,7 +21,7 @@ if(variable_global_exists("player_level")) {
     damage = 1;
     xp = 0;
     total_xp = 0;
-    xp_require = 100; // Starting with 1000 followers needed
+    xp_require = 100; 
     level = 1;
     
     // Save initial stats
@@ -44,19 +44,19 @@ facing = 0;
 // Level up notification variables
 show_level_notification = false;
 notification_timer = 0;
-notification_duration = room_speed * 3; // Show for 3 seconds
+notification_duration = room_speed * 3; 
 
 last_attack_time = 0;
 can_attack = true;
-attack_cooldown = 15; // 15ms cooldown
+attack_cooldown = 15; 
 function add_xp(_xp_to_add)
 {
     xp += _xp_to_add;
-    total_xp += _xp_to_add; // Add to total XP counter
+    total_xp += _xp_to_add; 
     
     if(xp >= xp_require)
     {
-        // Store previous stats to calculate increase
+
         last_health = hp_total;
         last_damage = damage;
         
@@ -68,7 +68,7 @@ function add_xp(_xp_to_add)
         hp = hp_total;
         damage += 0.8;
         
-        // Save updated stats
+
         global.player_hp = hp;
         global.player_hp_total = hp_total;
         global.player_damage = damage;
@@ -77,12 +77,12 @@ function add_xp(_xp_to_add)
         global.player_xp_require = xp_require;
         global.player_level = level;
         
-        // Show level up notification
+
         show_level_notification = true;
         notification_timer = notification_duration;
     }
     
-    // Save XP even if we didn't level up
+
     global.player_xp = xp;
     global.player_total_xp = total_xp;
 }

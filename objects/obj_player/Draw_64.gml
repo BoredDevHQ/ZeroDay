@@ -17,21 +17,21 @@ draw_sprite_stretched_ext(spr_box, 1, _dx, _dy, _health_barw, _barh, c_red, 0.6)
 draw_text(_dx + _barw / 2, _dy + _barh / 2, "HEALTH");
 
 
-// Draw heart icon next to health bar
-if (sprite_exists(spr_heart)) // Check if spr_heart exists to prevent errors
-{
-    var _heart_spr = spr_heart; // The sprite to draw
-    var _heart_img = 0;         // The sub-image (frame) of the sprite
-    var _heart_scale = 3.5;       // Scale factor for the heart (3 times bigger)
 
-    // Get original dimensions of the heart sprite
+if (sprite_exists(spr_heart)) 
+{
+    var _heart_spr = spr_heart; 
+    var _heart_img = 0;         
+    var _heart_scale = 3.5;       
+
+
     var _heart_original_w = sprite_get_width(_heart_spr);
     var _heart_original_h = sprite_get_height(_heart_spr);
 
-    // Calculate the scaled height for accurate vertical centering
+
     var _heart_scaled_h = _heart_original_h * _heart_scale;
 
-    // X position: 5% from the left edge of the health bar
+
     var _heart_x = _dx + (_barw * 0.05);
     var _health_bar_center_y = _dy + (_barh / 1.5);
     var _original_pixel_shift_up = 3;
