@@ -9,6 +9,15 @@ ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in
 
 ## Changelog
 
+### V.1.1.0
+The end of the road.. For now. If there is enough demand i might continue with the story, i'll only be providing/approving bug fixes.
+```md
++ Mission 4
++ Story ending
++ Skip button
++ Following NPC
+```
+
 ### v.1.0.3
 ```md
 + Mission 3 end
