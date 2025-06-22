@@ -1,7 +1,7 @@
 var _boxw = 800;
-var _boxh = gui_h * 0.3; // Keep height relative to screen
+var _boxh = gui_h * 0.3; 
 var _dx = (gui_w - _boxw) / 2;
-var _dy = gui_h - _boxh - 20; // 20px margin from bottom
+var _dy = gui_h - _boxh - 20; 
 var _padding = 16;
 
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _boxw, _boxh);
