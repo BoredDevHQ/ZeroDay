@@ -4,9 +4,7 @@ var _str = messages[current_message].msg;
 var _msg = messages[current_message];
 
 // Check for skip button click
-var _skip_x = gui_w - skip_btn_w - skip_btn_margin;
-var _skip_y = gui_h - skip_btn_h - skip_btn_margin;
-if (skip_btn_hover && mouse_check_button_pressed(mb_left)) {
+if (skip_btn_hover && mouse_check_button_pressed(mb_left)) { // skip_btn_hover is calculated in the Draw GUI event
     // Stop any playing sounds
     if (audio_is_playing(talking)) {
         audio_stop_sound(talking);

@@ -109,7 +109,7 @@ if (show_level_notification)
     var box_width = 300;
     var box_height = 150;
     var padding = 15;
-    var box_x = display_get_gui_width() - box_width - 20;
+    var box_x = 20;
     var box_y = 20; 
     
     // Draw box background using the same sprite as the health/xp bars

@@ -1,27 +1,30 @@
-var _dx = 0;
-var _dy = gui_h * 0.7;
-var _boxw = gui_w;
-var _boxh = gui_h - _dy;
+var _boxw = 800;
+var _boxh = gui_h * 0.3; // Keep height relative to screen
+var _dx = (gui_w - _boxw) / 2;
+var _dy = gui_h - _boxh - 20; // 20px margin from bottom
+var _padding = 16;
 
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _boxw, _boxh);
 
-_dx += 16;
-_dy += 16;
+var _text_x = _dx + _padding;
+var _text_y = _dy + _padding;
 
 draw_set_font(Font1);
 
 var _name = messages[current_message].name;
 draw_set_color(global.char_colors[$ _name]);
-draw_text(_dx, _dy, _name);
+draw_text(_text_x, _text_y, _name);
 draw_set_color(c_white)
 
-_dy += 40;
+_text_y += 40;
 
-draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);
+var _wrap_w = _boxw - (_padding * 2);
+draw_text_ext(_text_x, _text_y, draw_message, -1, _wrap_w);
 
 // Draw skip button
-var _skip_x = gui_w - skip_btn_w - skip_btn_margin;
-var _skip_y = gui_h - skip_btn_h - skip_btn_margin;
+// Position skip button inside the dialog box
+var _skip_x = _dx + _boxw - skip_btn_w - _padding;
+var _skip_y = _dy + _boxh - skip_btn_h - _padding;
 
 // Update hover state
 var _mx = device_mouse_x_to_gui(0);
