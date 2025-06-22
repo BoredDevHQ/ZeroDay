@@ -28,7 +28,7 @@ ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in
 ```
 
 ### V.1.1.1
-There is now an included MacOS compiled file but, since i don't have an apple developer account, i dont have signing certificates. If you do trust me as a developer, you can "sign it yourself" for your own device with the following commands:
+There is now an included MacOS compiled file but, since i don't have an apple developer account, i dont have signing certificates. If you do trust me as a developer, you can sign it yourself for your own device with the following commands:
 ```bash
 chmod +x /Applications/Zeroday.app/Contents/MacOS/Mac_Runner
 codesign --remove-signature /Applications/Zeroday.app/Contents/MacOS/Mac_Runner
