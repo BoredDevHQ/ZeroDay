@@ -5,6 +5,12 @@
 ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in a city with great opportunities. Though, a company, Pear Computers, has somehow taken over the government of the entire country and now tracks everything everyone does in the country. They have cameras on every corner, and your face automatically gets registered when you enter the country. You, as the main character, are supposed to bring the company to the ground by breaking into their servers to hack them. You also need to accumulate people as a resistance against the now overtaken government to bring it back to order and get people’s privacy back and their saved data that Pear Computers accumulated destroyed.
 
 <div align="center">
+Ingame Screenshot
+</br>
+  <img src="ingame.png" alt="Ingame Screenshot" width="80%"/>
+</div>
+
+<div align="center">
   <a href="https://github.com/boreddevhq/zeroday/stargazers"><img src="https://img.shields.io/github/stars/boreddevhq/zeroday?style=for-the-badge&logo=github&color=f8b88b&logoColor=white" alt="Stars"></a>
   <a href="https://github.com/boreddevhq/zeroday/network/members"><img src="https://img.shields.io/github/forks/boreddevhq/zeroday?style=for-the-badge&logo=github&color=f8b88b&logoColor=white" alt="Forks"></a>
   <a href="https://github.com/boreddevhq/zeroday/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/boreddevhq/zeroday?style=for-the-badge&logo=github&color=f8b88b&logoColor=white" alt="Last Commit"></a>
