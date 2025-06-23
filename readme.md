@@ -28,9 +28,12 @@ Ingame Screenshot
 
 ### V.1.1.2
 ```md
-/ Moved follower and xp bars to the top center of the screen
+/ Moved health and xp bars to the top center of the screen
 / Improved dialog boxes
 / sprite fix on spr_player_walk_down
+/ Enemies no longer stack
+/ Knockback debuff
+/ Boss buff
 ```
 
 ### V.1.1.1
