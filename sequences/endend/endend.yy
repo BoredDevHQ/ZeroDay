@@ -43,8 +43,8 @@
   "playbackSpeedType":0,
   "resourceType":"GMSequence",
   "resourceVersion":"2.0",
-  "seqHeight":120.0,
-  "seqWidth":779.2185,
+  "seqHeight":144.0,
+  "seqWidth":887.0,
   "showBackdrop":true,
   "showBackdropImage":false,
   "spriteId":null,
@@ -69,7 +69,7 @@
       ],"traits":0,},
     {"$GMTextTrack":"","%Name":"Text Track 1","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetTextKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetTextKeyframe>":"","Channels":{
-              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"Fontgameover","path":"fonts/Fontgameover/Fontgameover.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Then, as you step in the truck, you feel something cold against\n                       the back of your head.","Wrap":false,},
+              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"Fontgameover","path":"fonts/Fontgameover/Fontgameover.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Then, as you step in the truck, you feel something cold against\n                       the back of your head, it's a gun.","Wrap":false,},
             },"Disabled":false,"id":"2d0b0aec-03f2-46e7-95b6-c7e831d6ae10","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetTextKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetTextKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"Text Track 1","resourceType":"GMTextTrack","resourceVersion":"2.0","trackColour":4294071112,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
@@ -98,7 +98,7 @@
       ],"traits":0,},
     {"$GMTextTrack":"","%Name":"Text Track 1","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetTextKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetTextKeyframe>":"","Channels":{
-              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"Fontgameover","path":"fonts/Fontgameover/Fontgameover.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Then you hear Ghost say something in such a cold tone:\n\"You.. You really thought you were fighting something here?\n      Doing something meaningful? How dumb are you? \n    All this hacking was fake. It was just to get you here. \n            Now it's over. Good night, Chris.","Wrap":false,},
+              "0":{"$AssetTextKeyframe":"","Alignment":1,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"Fontgameover","path":"fonts/Fontgameover/Fontgameover.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Then you hear Ghost say something in a cold tone:\n\"Wow. It's surprising you got so far, I'm honestly surprised.\nYet, do you REALLY think you were fighting something here?\nHelping out the community?.. No. Chris, this was all just to get you here.\nThe entire point was to get you killed, i just wanted to make it fun.\nSo, good night Chris. No one will EVER beat Pear.\"","Wrap":false,},
             },"Disabled":false,"id":"860880a1-264b-48df-9cb8-91d71bde3708","IsCreationKey":false,"Key":180.0,"Length":524.0,"resourceType":"Keyframe<AssetTextKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetTextKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"Text Track 1","resourceType":"GMTextTrack","resourceVersion":"2.0","trackColour":4294071112,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
@@ -112,6 +112,10 @@
                   "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-358.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
                   "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-60.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
                 },"Disabled":false,"id":"2c789d2b-3335-46df-af86-f7c8d692e2b2","IsCreationKey":false,"Key":180.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-432.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-72.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"e10a6772-2685-4a32-bed7-679a6ced6170","IsCreationKey":false,"Key":181.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
             ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"position","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4294071112,"tracks":[],"traits":0,},
         {"$GMRealTrack":"","%Name":"rotation","builtinName":8,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
