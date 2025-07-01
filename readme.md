@@ -99,7 +99,4 @@ The first version is officially released! 🎉
 The first mission has been mostly completed. It is a very simple introduction, and the story will most likely get changed later. This is just a preview of what it will be later.
 So, keep in mind, it is an alpha version, it will have bugs and it is NOT polished at all.
 
-# Credits
-**Main Developer, Graphics Designer and Story Writer:** Chris </br>
-**Donators:**
-**Alpha Testers:**
+
