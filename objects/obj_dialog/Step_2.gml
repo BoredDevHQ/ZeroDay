@@ -3,9 +3,7 @@ if (current_message < 0) exit;
 var _str = messages[current_message].msg;
 var _msg = messages[current_message];
 
-// Check for skip button click
-if (skip_btn_hover && mouse_check_button_pressed(mb_left)) { // skip_btn_hover is calculated in the Draw GUI event
-    // Stop any playing sounds
+ if (skip_btn_hover && mouse_check_button_pressed(mb_left)) { 
     if (audio_is_playing(talking)) {
         audio_stop_sound(talking);
     }
@@ -13,7 +11,6 @@ if (skip_btn_hover && mouse_check_button_pressed(mb_left)) { // skip_btn_hover i
         audio_stop_sound(_msg.sound);
     }
     
-    // Skip to the end of dialog
     instance_destroy();
     if (next_room) {
         room_goto_next();
@@ -51,9 +48,8 @@ if (current_char == 0)
     }
     else
     {
-        // Play default talking sound if no specific sound is set
-        audio_sound_gain(talking, 0.5, 0); // Set volume to 50%
-        talking_sound = audio_play_sound(talking, 5, true); // Loop the sound
+        audio_sound_gain(talking, 0.5, 0); 
+        talking_sound = audio_play_sound(talking, 5, true); 
     }
 }
 
@@ -65,7 +61,6 @@ if (current_char < string_length(_str))
 }
 else
 {
-    // Stop the talking sound when text is fully displayed
     if (audio_is_playing(talking) && !variable_struct_exists(_msg, "sound"))
     {
         audio_stop_sound(talking);
@@ -76,7 +71,6 @@ else
         current_message++;
         if (current_message >= array_length(messages))
         {
-            // Stop the talking sound when dialog ends
             if (audio_is_playing(talking))
             {
                 audio_stop_sound(talking);
