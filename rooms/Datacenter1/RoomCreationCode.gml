@@ -1,1 +1,1 @@
-create_dialog(global.d_datacenter1enter);
+create_dialog(global.d_datacenter1);
