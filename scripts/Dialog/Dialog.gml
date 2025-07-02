@@ -362,7 +362,7 @@ global.d_datacenterbossfight1 = [
   },
   {
     name: "Ghost (Radio)",
-    msg: "That monstrosity? That's the metal nightmare that'll probably kill you in two hits. Ever heard of ‘Slash and Dash'? No? Well... welcome to hell."
+    msg: "That monstrosity? That's the metal nightmare that'll probably kill you in two hits. Ever heard of 'Slash and Dash'? No? Well... welcome to hell."
   }
 ];
 
@@ -414,7 +414,7 @@ global.d_bossfinish = [
   },
   {
     name: "Chris",
-    msg: "Almost died back there, and all I get is ‘Nice work'? Really?"
+    msg: "Almost died back there, and all I get is 'Nice work'? Really?"
   },
   {
     name: "Ghost (Radio)",
