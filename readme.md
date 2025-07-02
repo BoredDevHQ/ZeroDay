@@ -63,13 +63,13 @@ The end of the road.. For now. If there is enough demand i might continue with t
 + Following NPC
 ```
 
-### v.1.0.3
+### v.1.0.30
 ```md
 + Mission 3 end
 + minor bug fixes
 ```
 
-### v.1.0.2
+### v.1.0.20
 ```md
 + Game Over Screen
 + Boss fight (big chonkah)
@@ -86,7 +86,7 @@ The end of the road.. For now. If there is enough demand i might continue with t
 + XP saving fix on room "arenafight1" --> "arenad1"
 ```
 
-### v1.0.1
+### v1.0.10
 The second pre-alpha version has been released!
 ```md
 V1.0.1 changelog:
