@@ -28,6 +28,9 @@ Ingame Screenshot
 
 ## Changelog
 
+### V.1.1.3
+I've done a major rewrite on the dialogs as the old one's weren't exactly favorable.
+
 ### V.1.1.2
 ```md
 / Moved health and xp bars to the top center of the screen
@@ -52,7 +55,7 @@ codesign --force --deep --sign - /Applications/Zeroday.app
 ```
 
 ### V.1.1.0
-The end of the road.. For now. If there is enough demand i might continue with the story, i'll only be providing/approving bug fixes.
+The end of the road.. For now. If there is enough demand i might continue with the story, i'll probably only be providing/approving bug fixes.
 ```md
 + Mission 4
 + Story ending
