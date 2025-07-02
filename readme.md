@@ -2,7 +2,7 @@
 
 
 
-ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in a city with great opportunities. Though, a company, Pear Computers, has somehow taken over the government of the entire country and now tracks everything everyone does in the country. They have cameras on every corner, and your face automatically gets registered when you enter the country. You, as the main character, are supposed to bring the company to the ground by breaking into their servers to hack them. You also need to accumulate people as a resistance against the now overtaken government to bring it back to order and get people’s privacy back and their saved data that Pear Computers accumulated destroyed.
+ZeroDay is a 2D pixel art top-down RPG about Chris, a hacker that has arrived in a city with great opportunities. Though, a company, Pear Computers, has somehow taken over the government of the entire country and now tracks everything everyone does in the country. They have cameras on every corner, and your face automatically gets registered when you enter the country. You, as the main character, are supposed to bring the company to the ground by breaking into their datacenters, hack their servers and hope that you survive.
 
 ### If you wish to play Zeroday, but don't want to install it, play it on [GX.games](https://gx.games/games/g6s0ok/zeroday/tracks/17711848-dec2-4c0d-a380-1f9f28275100/) and enjoy!
 
