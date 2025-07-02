@@ -12,10 +12,10 @@ gui_h = display_get_gui_height();
 
 next_room = false;
 
-// Sound-related variables
+
 talking_sound = noone;
 
-// Skip button variables
+
 skip_btn_w = 80;
 skip_btn_h = 32;
 skip_btn_margin = 16;

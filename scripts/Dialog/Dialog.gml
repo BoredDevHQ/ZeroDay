@@ -107,7 +107,7 @@ global.welcome_dialog = [
   },
   {
     name: "Ghost",
-    msg: "But first... you'll need a decent laptop. No spyware shit. And while you're out—get me a coffee. Black. No sugar. This city's cold enough."
+    msg: "But first... you'll need a decent laptop. No spyware shit. And while you're out, get me a coffee. Black. No sugar. This city's cold enough."
   }
 ]
 global.pearstore = [
@@ -115,8 +115,51 @@ global.pearstore = [
     name: "Pear Store",
     msg: "Entering the Pear Store"
 },
-
 ]
+
+global.pearstoreemployee = [
+  {
+    name: "Pear Store Employee",
+    msg: "Welcome to the Pear Store! Interested in the ultra-thin PearBook Air or the slightly-less-thin PearBook Pro?"
+  },
+  {
+    name: "Chris",
+    msg: "PearBook Pro."
+  },
+  {
+    name: "Pear Store Employee",
+    msg: "Excellent choice. Our Pro model includes six proprietary screws, mandatory updates, and a 3% faster clock speed over last year's model."
+  },
+  {
+    name: "Chris",
+    msg: "Right... how much?"
+  },
+  {
+    name: "Pear Store Employee",
+    msg: "Just 3,499EUR and for a limited time, it comes with a free Terms of Surrender agreement!"
+  },
+  {
+    name: "Chris",
+    msg: "A what?"
+  },
+  {
+    name: "Pear Store Employee",
+    msg: "Oh, just legal stuff. You know: permission to access your camera, GPS, sleep patterns, blood pressure, friend list..."
+  },
+  {
+    name: "Chris",
+    msg: "...sure. Whatever. Here's the money."
+  },
+  {
+    name: "Pear Store Employee",
+    msg: "Thank you for choosing Pear. We hope your data enjoys its new home."
+  },
+  {
+    name: "Chris",
+    msg: "Weirdo."
+  }
+];
+
 global.enterstarbucks = [
 {
     name: "Moonbucks",
@@ -182,7 +225,7 @@ global.homeenter = [
 global.d_endmission1 = [
   {
     name: "Ghost",
-    msg: "Well, look at that! A brand-new PearBook Pro. Kinda ironic buying gear from the same corp we're trying to burn down... but no worries—we'll just root it and slap Penguin on it."
+    msg: "Well, look at that! A brand-new PearBook Pro. Kinda ironic buying gear from the same corp we're trying to burn down... but no worries, we'll just root it and slap Penguin on it."
   },
   {
     name: "Chris",
@@ -208,11 +251,11 @@ global.d_startmission2 = [
   },
   {
     name: "Ghost",
-    msg: "Then let's test that. I've got a few combat bots, ripped ‘em right out of a Pear security crate. Let's see if you survive."
+    msg: "Then let's test that. I've got a few combat bots, ripped 'em right out of a Pear security crate. Let's see if you survive."
   },
   {
     name: "Chris",
-    msg: "Bring it on. Those bots won't know what hit ‘em."
+    msg: "Bring it on. Those bots won't know what hit 'em."
   }
 ];
 global.d_arena = [
@@ -234,7 +277,7 @@ global.d_arena = [
   },
   {
     name: "Ghost",
-    msg: "Good attitude. Hit 'SPACE' to attack the bots—and please don't explode like the last guy. Took me hours to get his brain off the walls."
+    msg: "Good attitude. Hit 'SPACE' to attack the bots, and please don't explode like the last guy. Took me hours to get his brain off the walls."
   },
   {
     name: "Chris",
@@ -256,7 +299,7 @@ global.d_arenad2 = [
   },
   {
     name: "Ghost",
-    msg: "Honestly? Yeah. You and the last guy had a similar look in your eyes. But hey—you made it."
+    msg: "Honestly? Yeah. You and the last guy had a similar look in your eyes. But hey, you made it."
   },
   {
     name: "Chris",
@@ -295,11 +338,11 @@ global.d_datacenter1 = [
   },
   {
     name: "Chris",
-    msg: "Are you fucking kidding me?! You absolute piece of—"
+    msg: "Are you fucking kidding me?! You absolute piece of-"
   },
   {
     name: "Ghost (Radio)",
-    msg: "Look, no time to yell at me—just do what you did in the arena. Keep moving. Don't die."
+    msg: "Look, no time to yell at me, just do what you did in the arena. Keep moving. Don't die."
   },
   {
     name: "Chris",
@@ -332,7 +375,7 @@ global.d_datacenter2 = [
 global.d_startmission3 = [
   {
     name: "Ghost",
-    msg: "Alright, this time it's real. Got a Pear datacenter up north—just past the bridge."
+    msg: "Alright, this time it's real. Got a Pear datacenter up north, just past the bridge."
   },
   {
     name: "Chris",
@@ -375,7 +418,7 @@ global.d_bossfinish = [
   },
   {
     name: "Ghost (Radio)",
-    msg: "Alright, alright—I'll buy you that beer. Anyway, see that door? I got it open while you were dodging death. Go through, and you'll find the server room."
+    msg: "Alright, alright, I'll buy you that beer. Anyway, see that door? I got it open while you were dodging death. Go through, and you'll find the server room."
   }
 ];
 global.d_serverroom = [
@@ -389,7 +432,7 @@ global.d_serverroom = [
   },
   {
     name: "Ghost (Radio)",
-    msg: "Good. See that laptop in the center? Crack it open and start the hack. I'll handle the backend. Heads up—don't get too comfortable. You're about to attract some unwanted attention."
+    msg: "Good. See that laptop in the center? Crack it open and start the hack. I'll handle the backend. Heads up, don't get too comfortable. You're about to attract some unwanted attention."
   }
 ];
 global.d_datacenterhack = [
@@ -403,7 +446,7 @@ global.d_datacenterhack = [
   },
   {
     name: "Ghost (Radio)",
-    msg: "Good question. Now get moving—bots are swarming your way. Unless you're looking to become another statistic, I'd start sprinting for that exit."
+    msg: "Good question. Now get moving, bots are swarming your way. Unless you're looking to become another statistic, I'd start sprinting for that exit."
   }
 ];
 global.d_escapedatacenter = [
@@ -427,7 +470,7 @@ global.d_escapedatacenter = [
 global.d_mission3end = [
   {
     name: "Ghost",
-    msg: "Welcome back, mate. What you just pulled off changed a lot—saved us from at least six break-ins into Pear's datacenters. Some kid left API keys here that gave me access to even more. I wiped those too, and man, I found some seriously disturbing shit."
+    msg: "Welcome back, mate. What you just pulled off changed a lot, saved us from at least six break-ins into Pear's datacenters. Some kid left API keys here that gave me access to even more. I wiped those too, and man, I found some seriously disturbing shit."
   },
   {
     name: "Chris",
@@ -461,7 +504,7 @@ global.d_mission4start = [
   },
   {
     name: "Ghost",
-    msg: "There's a dev in there. We need him—he's got full access to their main servers. Only him and the CEO have, really."
+    msg: "There's a dev in there. We need him, he's got full access to their main servers. Only him and the CEO have, really."
   },
   {
     name: "Chris",
@@ -489,13 +532,13 @@ global.d_mission4start = [
   },
   {
     name: "Ghost",
-    msg: "Anyway, you better get moving before the dev disappears. Good fucking luck—you're gonna need it."
+    msg: "Anyway, you better get moving before the dev disappears. Good fucking luck, you're gonna need it."
   }
 ];
 global.d_dev = [
   {
     name: "Chris",
-    msg: "Hey—hello? HEY!",
+    msg: "Hey- hello? HEY!",
   },
   {
     name: "Dev",
@@ -515,7 +558,7 @@ global.d_dev = [
   },
   {
     name: "Dev",
-    msg: "Oh fu—Fine, I'm coming. Just don't tell anyone, please!",
+    msg: "Oh fu-Fine, I'm coming. Just don't tell anyone, please!",
   },
   {
     name: "Chris",
