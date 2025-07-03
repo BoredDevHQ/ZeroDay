@@ -1,8 +1,9 @@
+// Parent script for the enemies
 target_x = x;
 target_y = y;
 
 alarm[0] = 60;
-
+// collide with Tiles_Col"
 tilemap = layer_tilemap_get_id("Tiles_Col");
 
 // knockback

@@ -1,3 +1,4 @@
+// The player object that does movement, xp, health and most UI elements.
 winw = window_get_width();
 winh = window_get_height();
 

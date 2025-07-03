@@ -1,3 +1,5 @@
+// The npc that follows you after the interaction with it
+
 // Inherit the parent event
 event_inherited();
 

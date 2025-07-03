@@ -1,3 +1,4 @@
+// One of the "expose videos" inside mission 3 
 video_open("expose1.mp4");
 
 video_playing = true;

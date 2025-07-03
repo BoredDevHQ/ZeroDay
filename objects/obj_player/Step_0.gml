@@ -4,7 +4,7 @@ if (window_get_width() != winw || window_get_height() !=winh)
 }
 
 if (instance_exists(obj_dialog)) exit;
-    
+   // movement 
 var _hor = (keyboard_check(ord("D")) or keyboard_check(vk_right)) 
         - (keyboard_check(ord("A")) or keyboard_check(vk_left));
 

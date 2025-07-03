@@ -1,3 +1,4 @@
+// Doesn't allow the enemy to move during a dialog
 if (instance_exists(obj_dialog)) exit;
 
 var _hor_normal = clamp(target_x - x, -1, 1);
@@ -9,6 +10,7 @@ var _separation_force = 0.2;
 var _repulsion_x = 0;
 var _repulsion_y = 0;
 
+// Makes so the enemies don't overlap.
 with (obj_enemy_parent) {
     if (id != other.id) {
         var _dist = point_distance(x, y, other.x, other.y);
@@ -22,10 +24,10 @@ with (obj_enemy_parent) {
         }
     }
 }
-
+// Movement
 var _total_hor_move = (_hor_normal * move_speed) + knockback_vel_x + _repulsion_x;
 var _total_ver_move = (_ver_normal * move_speed) + knockback_vel_y + _repulsion_y;
-
+// Knockback
 knockback_vel_x *= knockback_friction;
 knockback_vel_y *= knockback_friction;
 

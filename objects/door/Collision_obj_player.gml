@@ -1,3 +1,5 @@
+// DOOR OBJECT, when the player collides it goes to the next room if all enemies in the room are dead.
+
 // Check if there are any enemies left in the room
 if (instance_number(obj_enemy_parent) <= 0) {
     // Save player XP before room transition

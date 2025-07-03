@@ -1,3 +1,4 @@
+// if the boss gets killed, a dialog is created
 if (!global.boss_dialog_shown && instance_number(obj_enemy_parent) <= 0) {
     global.boss_dialog_shown = true; 
 

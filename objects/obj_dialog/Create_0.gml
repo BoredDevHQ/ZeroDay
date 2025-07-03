@@ -1,3 +1,4 @@
+// The main dialog function to interact with NPC's, the dialogs are in the Dialog gml script.
 messages = [];
 current_message = -1;
 current_char = 0;
