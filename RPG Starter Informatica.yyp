@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"RPG Starter Informatica",
   "resources":[
@@ -229,7 +229,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"SplashScreen","path":"rooms/SplashScreen/SplashScreen.yy",},},
-    {"roomId":{"name":"datacenterhack","path":"rooms/datacenterhack/datacenterhack.yy",},},
     {"roomId":{"name":"mainmenu","path":"rooms/mainmenu/mainmenu.yy",},},
     {"roomId":{"name":"Basement","path":"rooms/Basement/Basement.yy",},},
     {"roomId":{"name":"pearopen","path":"rooms/pearopen/pearopen.yy",},},
@@ -246,6 +245,7 @@
     {"roomId":{"name":"Mission3open1","path":"rooms/Mission3open1/Mission3open1.yy",},},
     {"roomId":{"name":"Datacenter1","path":"rooms/Datacenter1/Datacenter1.yy",},},
     {"roomId":{"name":"DatacenterBossFight","path":"rooms/DatacenterBossFight/DatacenterBossFight.yy",},},
+    {"roomId":{"name":"datacenterhack","path":"rooms/datacenterhack/datacenterhack.yy",},},
     {"roomId":{"name":"datacenterhackfinish","path":"rooms/datacenterhackfinish/datacenterhackfinish.yy",},},
     {"roomId":{"name":"datacenterhack_d","path":"rooms/datacenterhack_d/datacenterhack_d.yy",},},
     {"roomId":{"name":"Mission3open2","path":"rooms/Mission3open2/Mission3open2.yy",},},
